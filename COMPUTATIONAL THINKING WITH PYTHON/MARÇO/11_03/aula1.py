@@ -37,4 +37,18 @@ A,B = 10,20
 
 print(A,B)
 
+#BHASKARA
 
+print(div)
+
+a = 2
+b = -8
+c = 6
+
+delta = (b**2-4*a*c)**0.5
+
+x1 = (-b+delta)/(2*a)
+x2 = (-b-delta)/(2*a)
+
+print (x1)
+print (x2)
