@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    background-color: black;
+}
+
+header a {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 15px 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+a i{
+    font-size: 22px;
+}
+
+
+section img {
+    max-width: 100%;
+}
+
+section div img{
+    width: 20%;
+}
