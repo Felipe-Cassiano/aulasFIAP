@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/broadway');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1 { font-family: "Broadway", sans-serif; font-weight: 500; font-size: 40px; color: #064661; }
+#title { color: white; }
+p { font-family: "Roboto", sans-serif; }
+
+header {
+    background-color: #064661 ;
+    padding: 20px 75px;
+}
+
+section {
+    padding: 50px 75px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
