@@ -1,29 +1,110 @@
 @import url('https://fonts.cdnfonts.com/css/broadway');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ESTILOS GERAIS */
+
+* {
+    font-family: "Poppins", sans-serif; 
+}
 
 body {
     margin: 0;
 }
 
-h1 { font-family: "Broadway", sans-serif; font-weight: 500; font-size: 40px; color: #064661; }
+h1,h3 { font-family: "Broadway", sans-serif; font-weight: 500;  }
+h1 {font-size: 40px; color: #064661;}
+h3 {font-size: 24px;}
 #title { color: white; }
-p { font-family: "Roboto", sans-serif; }
 
-header {
-    background-color: #064661 ;
-    padding: 20px 75px;
-}
+/* ESTILOS HEADER */
+header { background-color: #064661 ; padding: 20px 75px;}
 
-section {
-    padding: 50px 75px;
-}
+/* ESTILO BANNER */
 
-#banner {
-    width: 100%;
-}
+#banner { width: 100%; }
 
-.container {
+/* ESTILO DO CONTAINER DE INFO */
+
+.infoContainer { padding: 50px 150px; }
+
+/* ESTILOS DO ARTIGO */
+
+.articleContainer {
     display: flex;
     justify-content: space-evenly;
+    gap: 50px;
 }
 
+.articleParagraphs {
+    display: flex;
+    flex-direction: column;
+}
+
+#articleImage { width: 500px; }
+
+/* ESTILOS DAS "CAIXAS AZUIS" (foi o nome que eu inventei pro XD) */
+
+.blueBoxContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueBox {
+    width: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    border: 3px solid #064661;
+}
+
+.blueBox1 { background-color: #99BEDF;}
+
+.blueBox2 { color: white; background-color: #064661B2; }
+
+.blueBox3 { background-color: #99BEDF;}
+
+/* ESTILOS GALERIA */
+
+.galleryImagesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryImages {
+    width: 225px;
+    border-radius: 50px;
+}
+
+/* ESTILOS CONTATOS */
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactListLi {
+    margin: 10px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contactListImages { width: 30px; }
+
+/* ESTILOS FOOTER */
+
+.footer {
+    height: 100px;
+    padding: 20px;
+    background-color: #064661;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    gap: 5px;
+}
+
+.footer p { margin: 0; }
